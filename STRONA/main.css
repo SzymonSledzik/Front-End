@@ -1,77 +1,90 @@
-body { 
-    margin: 0; 
-    padding: 0; 
-    border: 0; 
-    font-size: 100%; 
-    font: inherit; 
-    vertical-align: baseline; 
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
     background-color: whitesmoke;
 }
 
-img{
+img {
     padding: 5px 0 0 12px;
 }
 
-.tlo{
+.tlo {
     margin: 0;
     background-color: #98CCFD;
     width: 100%;
-    height: 25rem;
-
+    height: 20rem;
 }
 
-.wrapper{
+.stopka {
+    height: 10rem;
+}
+
+.wrapper {
     padding-top: 2rem;
     height: 10rem;
     width: 100%;
     display: flex;
     bottom: 0;
-    position:relative;
+    position: relative;
     left: 37%;
 }
 
-#logo{
+#logo {
     width: 86%;
     height: 10rem;
     display: inline-block;
 }
 
-#socials{
+#socials {
     width: 13%;
     display: inline-block;
 }
 
-.text{
+.text {
     text-align: center;
-    font-family: 'Barol', 'Open Sans' ;
+    font-family: 'Barol', 'Open Sans';
     font-size: 26px;
 }
 
-.block{
+#text2 {
+    font-family: 'Barol', 'Open Sans';
+    font-size: 26px;
+    color: #FDC998;
+}
+
+.textcol {
+    padding: 20px;
+    font-weight: bold;
+}
+
+.block {
     background: #FDC998;
     border-radius: 60px;
     width: 33%;
-    height: 900px; 
+    height: 900px;
     display: inline-block;
-    margin-left: auto ;
-    margin-right: auto ;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.block2{
+.block2 {
     display: inline-block;
-    margin-left: 0 auto ;
     width: 526px;
     height: 359px;
     background: #C4C4C4;
     border-radius: 20px;
 }
 
-#awatar{
+#awatar {
     display: block;
     padding-top: 25px;
 }
 
 @font-face {
-  font-family: Barol;
-  src: url(fonts/Bariol_Regular.otf);
+    font-family: Barol;
+    src: url(fonts/Bariol_Regular.otf);
 }
