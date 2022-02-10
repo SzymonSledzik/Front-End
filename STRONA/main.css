@@ -50,12 +50,20 @@ img{
 .block{
     background: #FDC998;
     border-radius: 60px;
-    width: 30%;
+    width: 33%;
     height: 900px; 
-    padding: 10px;
     display: inline-block;
     margin-left: auto ;
     margin-right: auto ;
+}
+
+.block2{
+    display: inline-block;
+    margin-left: 0 auto ;
+    width: 526px;
+    height: 359px;
+    background: #C4C4C4;
+    border-radius: 20px;
 }
 
 #awatar{
