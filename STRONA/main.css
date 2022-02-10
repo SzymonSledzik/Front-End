@@ -1,0 +1,69 @@
+body { 
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+    font-size: 100%; 
+    font: inherit; 
+    vertical-align: baseline; 
+    background-color: whitesmoke;
+}
+
+img{
+    padding: 5px 0 0 12px;
+}
+
+.tlo{
+    margin: 0;
+    background-color: #98CCFD;
+    width: 100%;
+    height: 25rem;
+
+}
+
+.wrapper{
+    padding-top: 2rem;
+    height: 10rem;
+    width: 100%;
+    display: flex;
+    bottom: 0;
+    position:relative;
+    left: 37%;
+}
+
+#logo{
+    width: 86%;
+    height: 10rem;
+    display: inline-block;
+}
+
+#socials{
+    width: 13%;
+    display: inline-block;
+}
+
+.text{
+    text-align: center;
+    font-family: 'Barol', 'Open Sans' ;
+    font-size: 26px;
+}
+
+.block{
+    background: #FDC998;
+    border-radius: 60px;
+    width: 30%;
+    height: 900px; 
+    padding: 10px;
+    display: inline-block;
+    margin-left: auto ;
+    margin-right: auto ;
+}
+
+#awatar{
+    display: block;
+    padding-top: 25px;
+}
+
+@font-face {
+  font-family: Barol;
+  src: url(fonts/Bariol_Regular.otf);
+}
