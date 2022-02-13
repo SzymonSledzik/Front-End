@@ -1,108 +1,164 @@
 <!DOCTYPE html>
 <html lang="pl-PL">
 
-
-
 <head>
-
-    <title>Szymon Śledzik Portfolio</title>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Szymon Śledzik Portfolio</title>
     <link rel="stylesheet" href="main.css">
 </head>
 
-
-
 <body>
-    <div id="logo">
-        <img src="icons/icons8_whole_fish_64.png" alt="logo" />
-    </div>
-    <div id="socials">
-        <a href="https://www.linkedin.com/in/szymon-śledzik-95954a216/"><img src="icons/icons8_linkedin_64.png" alt="linkedin"></a>
-        <a href="https://www.facebook.com/profile.php?id=100004691131950"> <img src="icons/icons8_facebook_64.png" alt="facebook"></a>
-    </div>
-
-    <div class="text" style="font-weight: bold; font-size: 36px;"> Designer, Front-end & Software Developer</div>
-    </b>
-    <div class="text" style="padding-top: 10px;"> Pasjonat piasania kodu, który kocha to co robi.
-    </div>
-
-    <div id="awatar">
-        <img src=" toja.jpg" width="200px" height="200px" style="margin-left: 41.5%;" style="margin-right: 55%;">
-    </div>
-
-    <div class="wrapper">
-        <img src="icons/ikonki.png" alt="ekran">
-    </div>
-    <div class="tlo text" style="padding-top: 20px;">
-        <div style="font-weight: bold;">Cześć, jestem Szymon. Miło mi Cię tu widzieć!</div>
-        <br>
-        <div>Mam 19 lat, urodziłem się w Szczecinie i od 15 roku życia interesuję się programowaniem. Moja przygoda zaczęła się od edytowania ceny albo statyskych przedmiotów. Aktualnie dąże do zbudowania mocnego i przekonywującego repozytorium.</div>
-    </div>
-    <div class="bloki">
-        <div class="block text">
-            <div class="textcol">Design</div>
-            <div class="text" style="padding-top: 20px;">Najbardziej lubię minimalistyczne ale przedstwiające konkrety diginy.</div>
-            <div class="text" style="padding-top: 20px; color: #5fb1fd;">Designing tych rzeczy sprawia mi największą przyjemność:</div>
-            <div style="padding: 5px;">Strony, Aplikacje mobilne, Loga</div>
-            <div style="padding-top: 20px; color: #5fb1fd;">Programy w których tworzę design:</div>
-            <div style="padding: 2px;">Figma</div>
-            <div style="padding: 2px;">Adobe Photoshop</div>
-            <div style="padding: 2px;">After Effects</div>
-            <div style="padding: 2px;">Sketch</div>
-        </div>
-
-        <div class="block text">
-            <div class="textcol">Front-end</div>
-            <div class="text" style="padding-top: 20px;">Bardzo lubię kodować. Webowka to coś co lubię najbardziej.</div>
-            <div class="text" style="padding-top: 20px; color: #5fb1fd;">Jakimi jezykami się posługuje:</div>
-            <div style="padding: 5px;">HTML, CSS, JavaScript, C/C++, Python</div>
-            <div style="padding-top: 20px; color: #5fb1fd;">Oprogramowanie jakim się posługuje: </div>
-            <div style="padding: 2px;">Bootstrap</div>
-            <div style="padding: 2px;">Github</div>
-            <div style="padding: 2px;">Gitlab</div>
-            <div style="padding: 2px;">Terminal</div>
-        </div>
-
-        <div class="block text">
-            <div class="textcol">Software</div>
-            <div class="text" style="padding-top: 20px;">Tworzenie nowego oprogramowania sprawia mi olbrzymią radość.</div>
-            <div class="text" style="padding-top: 20px; color: #5fb1fd;">W jakich programach tworze:</div>
-            <div style="padding: 5px;">Visual Studio, Atom</div>
-            <div style="padding-top: 20px; color: #5fb1fd;">Moje doświadczenie w kodowaniu: </div>
-            <div style="padding: 2px;">3 lata programowania w różnych językach</div>
-            <div style="padding: 2px;">300h doświadczenia w C++</div>
-            <div style="padding: 2px;">150h doświadczenia w HTML/CSS</div>
-            <div style="padding: 2px;">Tworzenie grafik od 5 lat</div>
-        </div>
-    </div>
-    <div id="text2"> &lt;projekty&gt; </div>
-    <div class="bloki">
+    <div id="container">
+        <nav>
+            <div id="nav-logo">
+                <div>
+                    <img src="icons/icons8_whole_fish_64.png" alt="logo" />
+                </div>
+            </div>
+            <div id="nav-social">
+                <div>
+                    <a href="https://www.linkedin.com/in/szymon-śledzik-95954a216/">
+                        <img src="icons/icons8_linkedin_64.png" width="60" height="60" alt="linkedin">
+                    </a>
+                </div>
+                <div>
+                    <a href="https://www.facebook.com/profile.php?id=100004691131950">
+                        <img src="icons/icons8_facebook_64.png" width="60" height="60" alt="facebook">
+                    </a>
+                </div>
+            </div>
+        </nav>
+        <section id="intro">
+            <div id="main-text">Designer, Front-end & Software Developer</div>
+            <div id="main-sub-text">Pasjonat piasania kodu, który kocha to co robi.</div>
+            <div id="avatar">
+                <img src="toja.jpg" width="200px" height="200px">
+            </div>
+        </section>
+        <section id="info">
+            <div class="info-left-border"></div>
+            <div class="info-right-border"></div>
+            <div id="about">
+                <h1>Cześć, jestem Szymon. Miło mi Cię tu widzieć!</h1>
+                <span>Mam 19 lat, urodziłem się w Szczecinie i od 15 roku życia interesuję się programowaniem. Moja przygoda zaczęła się od edytowania ceny albo statyskych przedmiotów. Aktualnie dąże do zbudowania mocnego i przekonywującego repozytorium.</span>
+            </div>
+        </section>
+        <section id="skills">
+            <div class="block">
+                <h1>Design</h1>
+                <span>
+                    Najbardziej lubię minimalistyczne ale przedstwiające konkrety diginy.
+                </span><br><br><br>
+                <span class="header">
+                Designing tych rzeczy sprawia mi największą przyjemność:    
+                </span><br><br>
+                <span>
+                Strony, Aplikacje mobilne, Loga
+                </span><br><br>
+                <span class="header">
+                    Programy w których tworzę design:
+                </span><br><br>
+                <span>
+                    Figma
+                </span><br>
+                <span>
+                    Adobe Photoshop
+                </span><br>
+                <span>
+                    Sketch
+                </span>
+            </div>
+            <div class="block">
+                <h1>Front-end</h1>
+                <span>
+                    Bardzo lubię kodować. Webowka to coś co lubię najbardziej.
+                </span><br><br><br>
+                <span class="header">
+                    Jakimi jezykami się posługuje:    
+                </span><br><br>
+                <span>
+                    HTML, CSS, JavaScript, C/C++, Python
+                </span><br><br>
+                <span class="header">
+                    Oprogramowanie jakim się posługuje:
+                </span><br><br>
+                <span>
+                    Github
+                </span><br>
+                <span>
+                    Gitlab
+                </span><br>
+                <span>
+                    Bootstrap
+                </span>
+            </div>
+            <div class="block">
+                <h1>Software</h1>
+                <span>
+                    Tworzenie nowego oprogramowania sprawia mi olbrzymią radość.
+                </span><br><br><br>
+                <span class="header">
+                    W jakich programach tworze:
+                </span><br><br>
+                <span>
+                    Visual Studio, Atom
+                </span><br><br>
+                <span class="header">
+                    Moje doświadczenie w kodowaniu:
+                </span><br><br><br>
+                <span>
+                    300h doświadczenia w C++
+                </span><br>
+                <span>
+                    250h doświadczenia w HTML/CSS
+                </span><br>
+                <span>
+                    Tworzenie grafik od 5 lat
+                </span>
+            </div>
+        </section>
+        <div id="main-text">Moje projekty: </div>
         <div>
-            <div class="block2"></div>
-            <div class="block2"></div>
+            <section class="block2">
+                <h1>Software</h1>
+            </section>
+            <section class="block2">
+                <h1>Software</h1>
+            </section>
         </div>
-    </div>
-    <div id="text2">
-        &lt;kontakt&gt;
-    </div>
-    <div class="tlo stopka bloki">
-        <div class="kolko">
-            <a href="https://discord.gg/cySvFvvf"><img src="icons/discord_64px.png" alt="linkedin"></a>
-        </div>
-        <div class="kolko">
-            <a href="https://www.instagram.com/szymonsledzik/"><img src="icons/icons8_Instagram_64.png" alt="linkedin"></a>
-        </div>
-        <div class="kolko">
-            <a href="https://twitter.com/SzymonSledzik"><img src="icons/twitter_52px.png" alt="linkedin"></a>
-        </div>
-        <div class="kolko">
-            <a href="https://steamcommunity.com/id/D3nis91"><img src="icons/steam_52px.png" alt="linkedin"></a>
-        </div>
-        <div class="kolko">
-            <a href="https://mail.google.com/mail/u/1/#inbox?compose=CllgCJTMXPcvrBrCdMgwBHzqrnjZLjqWPxZcVDBjhmJPVdRxmBBxBlKCccsHjvXfcgtBLpRCsnq"><img src="icons/gmail_48px.png" alt="linkedin"></a>
-        </div>
-    </div>
-
+        <footer>
+            <div class="contact-box">
+                <div>
+                    <a href="https://discord.gg/cySvFvvf">
+                        <img src="icons/discord_64px.png" alt="linkedin">
+                    </a>
+                </div>
+            </div>
+            <div class="contact-box">
+                <div>
+                    <a href="https://www.instagram.com/szymonsledzik/">
+                        <img src="icons/icons8_Instagram_64.png" height="50" width="50" alt="linkedin">
+                    </a>
+                </div>
+            </div>
+            <div class="contact-box">
+                <a href="https://twitter.com/SzymonSledzik">
+                    <img src="icons/twitter_52px.png" alt="linkedin">
+                </a>
+            </div>
+            <div class="contact-box">
+                <a href="https://steamcommunity.com/id/D3nis91">
+                    <img src="icons/steam_52px.png" alt="linkedin">
+                </a>
+            </div>
+            <div class="contact-box">
+                <a href="https://mail.google.com/mail/u/1/#inbox?compose=CllgCJTMXPcvrBrCdMgwBHzqrnjZLjqWPxZcVDBjhmJPVdRxmBBxBlKCccsHjvXfcgtBLpRCsnq">
+                    <img src="icons/gmail_48px.png" alt="linkedin">
+                </a>
+            </div>
+        </footer>
 </body>
 
 </html>
